@@ -69,5 +69,58 @@ button {
     color: #F9FAF8;
     background-color: gray;
     padding: 80px 150px;
+    text-align: center;
 }
 
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding-top: 36px;
+    padding-bottom: 12px;
+}
+
+.box {
+    border-width: thick;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 30px;
+    display: flex;
+    padding: 80px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px 200px;
+}
+
+.text {
+    padding: 12px;
+    color: gray;
+    text-align: center;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 80px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.person {
+    font-weight: bold;
+    display: flex;
+    align-self: flex-end;
+    padding: 20px 70px;
+}
